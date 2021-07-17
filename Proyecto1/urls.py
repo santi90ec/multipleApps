@@ -19,5 +19,7 @@ from django.urls.conf import include
 
 urlpatterns = [
    
-   path('blogs',include('blogs.urls'))
+   path('blogs',include('blogs.urls')),
+   path('users',include('usersApp.urls')),
+   path('encuestas',include('encuestasApp.urls'))
 ]
